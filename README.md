@@ -1,4 +1,4 @@
-## DOI
+# DOI
 10.5281/zenodo.19675893
 # M3F-DETR Abstract
 In autonomous driving perception, real-time object detection under multi-scale and complex-background conditions remains challenging due to limited context modeling and feature coupling. This work presents a real-time detection transformer framework for complex road scenes, named M3F-DETR, which integrates Mamba-based long-range modeling, multi-scale semantic fusion, and frequency-domain-guided decoupled attention. The Long-Range Dependency Enhanced Module strengthens global context with low latency, the Multi-Scale Semantic Fusion Structure mitigates cross-scale feature inconsistency, and the Frequency-Domain-Guided Decoupled Attention enhances details and suppresses noise. Experiments on KITTI-ROD and Cityscapes datasets show the model achieves 54.2% AP, 89.28% mAP, and 97.1 FPS, balancing accuracy and efficiency effectively.
