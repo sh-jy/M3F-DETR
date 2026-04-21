@@ -1,0 +1,15 @@
+cloudpickle
+PyTorch==2.2.2
+Torchvision==0.17.2
+Python==3.9
+omegaconf
+flake8
+isort
+black
+autoflake
+timm
+pytest
+scipy
+opencv-python
+wandb
+einops

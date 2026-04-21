@@ -1,0 +1,38 @@
+train = dict(
+    output_dir="./output",
+    init_checkpoint="",
+    max_iter=90000,
+    amp=dict(enabled=False),
+    ddp=dict(
+        broadcast_buffers=False,
+        find_unused_parameters=False,
+        fp16_compression=False,
+    ),
+    clip_grad=dict(
+        enabled=False,
+        params=dict(
+            max_norm=0.1,
+            norm_type=2,
+        ),
+    ),
+    seed=-42,
+    fast_dev_run=dict(enabled=False),
+    checkpointer=dict(period=5000, max_to_keep=1000),
+    eval_period=10000,
+    log_period=50,
+    wandb=dict(
+        enabled=False,
+        params=dict(
+            dir="./m3f-detr-output",
+            project="m3f-detr",
+            name="m3f-detr_experiment",
+        )
+    ),
+    model_ema=dict(
+        enabled=False,
+        decay=0.999,
+        device="",
+        use_ema_weights_for_eval_only=False,
+    ),
+    device="cuda",
+)
