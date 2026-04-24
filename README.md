@@ -50,6 +50,5 @@ Mr.DETR：https://github.com/Visual-AI/Mr.DETR
 
 # 🪄 Notice
 The code in the current repository is still under active refinement and has not yet been released as the final version. We will continue to update and improve the implementation details of M3F-DETR on an ongoing basis.
-This repository is directly related to the manuscript currently submitted to The Visual Computer.  
 It is maintained to support the transparency and reproducibility of the reported experiments.
 If you find this repository useful in your research, please consider citing the associated manuscript and the archived software release.
